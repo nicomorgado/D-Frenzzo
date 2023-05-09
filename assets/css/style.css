@@ -1,0 +1,232 @@
+body {
+    font-family: var(--ff-primary);
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* ---------header----------*/
+.header_logo {
+    padding: 10px;
+    background: black;
+  }
+  .logo {
+    display: block;
+    margin-left: 0;
+    width: 15%;
+  }
+
+  .navbar {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+  }
+
+  .navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+
+  }
+
+/*---------Footer----------*/
+.footer{
+  background-color: black;
+  height: 50px;
+}
+.footer_box{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  gap: 25px;
+}
+
+.footer_box a{
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+/* ---------index----------*/
+.space {
+  text-align: center;
+  font-family: Verdana, sans-serif;
+  margin-top:5%;
+}
+  .about_us {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    flex-wrap: nowrap;
+  }
+
+  .about_us * {
+    flex:1;
+    padding: 10px;
+    border: transparent;
+    flex-wrap: wrap;
+  }
+
+  .video{
+    width:100%;
+    height: auto;
+  }
+
+  /* ---------text-img----------*/
+  .img_background{
+    background-image: url("https://media.istockphoto.com/id/1323401361/photo/barbecue-grill-with-fire-flames-empty-fire-grid-on-black-background.jpg?b=1&s=170667a&w=0&k=20&c=hp17ofRNJd1eMmHFrgwjjuHNkowYjmByoCTCy0jkI_g=");
+    background-attachment: fixed;
+    background-size: cover;
+    padding:10px;
+  }
+
+  .img_background h2{
+    color: white;
+  }
+
+  .background_box *{
+    text-align: start;
+  }
+
+  .img_flex{
+    display:flex;
+    width:100%;
+    margin:0;
+    flex-wrap:wrap;
+    justify-content: center;
+  }
+
+  .img_flex img{
+    display:block;
+    border-radius: 50%;
+    width:340px;
+    height:440px;
+    object-fit: scale-down;
+    flex-basis:10%;
+    padding:10px;
+  }
+
+/* --------- hover ----------*/
+  .container {
+    position: relative;
+    width: auto;
+  }
+
+  .overlay {
+    opacity: 0;
+    transition: .5s ease;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+  }
+
+  .container:hover .overlay {
+    opacity: 1;
+    color:black;
+    border-radius: 50%;
+  }
+
+  .text {
+    color: white;
+    position:absolute;
+    top:30px;
+    left:30%; 
+  }
+
+  .text_p {
+    color: white;
+    position:absolute;
+    top:100px;
+    left:10%; 
+  }
+
+  .text_ul {
+    color: white;
+    position:absolute;
+    top:170px;
+    left:10%; 
+  }
+
+  /*---------- Gallery -------------*/
+  .background_box_gallery {
+    background-color: black;
+    margin: 5% 10%;
+  }
+  
+  .background_box_gallery *{
+    text-align: start;
+  }
+
+  .img_flex_gallery{
+    display:flex;
+    width:100%;
+    margin:0;
+    flex-wrap:wrap;
+    justify-content: center;
+  }
+
+  .img_flex_gallery img{
+    display:block;
+    width:340px;
+    height:440px;
+    object-fit: scale-down;
+    flex-basis:10%;
+    padding:10px;
+    
+  }
+
+  .buttom_img_gallery{
+    position:absolute;
+    top:250px;
+    left: 130px;
+    text-align: center; 
+    border: 1px solid white;
+  }
+
+  /*---------- Hover Gallery-----------*/
+  .container_gallery {
+    position: relative;
+    width: auto;
+  }
+
+  .overlay_gallery {
+    opacity: 0;
+    transition: .5s ease;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+  }
+
+  .container_gallery:hover .overlay_gallery {
+    opacity: 1;
+    color:black;
+  }
+
+  .text_gallery {
+    color: white;
+    position:absolute;
+    top:150px;
+    left: 150px;
+    text-align: center; 
+  }
+
+
+
+  
+
+
+
+

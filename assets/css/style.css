@@ -6,28 +6,41 @@ body {
 }
 
 /* ---------header----------*/
+
 .header_logo {
-    padding: 10px;
+    padding-top: 20px;
+    width: 150px;
+    height: 150px;
     background: black;
-  }
-  .logo {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .background_color_logo{
+    background-color: black;
+  }
+
+  .insta_postion{
+    position: absolute;
+    left: 50px;
+    top: 120px;
+  }
+
+  .logo {
     margin-left: 0;
-    width: 15%;
+    width: 100%;
   }
 
   .navbar {
     display: flex;
-    background-color: black;
     justify-content: center;
   }
 
   .navbar a {
-    color: white;
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
-
   }
 
 /*---------Footer----------*/
@@ -55,20 +68,56 @@ body {
   text-align: center;
   font-family: Verdana, sans-serif;
   margin-top:5%;
+  background-color: black;
+}
+
+.subtitle{
+  background-color: white;
+  padding-bottom: 10px;
+}
+
+.subtitle h2{
+  color: black;
 }
   .about_us {
     display: flex;
     justify-content: center;
     height: 600px;
-    flex-wrap: nowrap;
   }
 
   .about_us * {
     flex:1;
     padding: 10px;
-    border: transparent;
     flex-wrap: wrap;
   }
+
+  .slideset1 {
+    height: 500px;
+    position: relative;
+  }
+  .slideset1 img{
+    width: 440px;
+    height: 570px;
+  }
+
+  .slideset1 > * {
+    visibility: hidden; 
+    position: absolute;
+    left: 25%;
+    animation: 12s autoplay1 infinite;
+  }
+
+    @keyframes autoplay1 {
+      0% {visibility: visible}
+      33.33% {visibility: hidden}
+    }
+
+    .slideset1 > *:nth-child(6) {animation-delay: 0s;}
+    .slideset1 > *:nth-child(5) {animation-delay: 2s;}
+    .slideset1 > *:nth-child(4) {animation-delay: 4s;}
+    .slideset1 > *:nth-child(3) {animation-delay: 6s;}
+    .slideset1 > *:nth-child(2) {animation-delay: 8s;}
+    .slideset1 > *:nth-child(1) {animation-delay: 10s;}
 
   .video{
     width:100%;
@@ -77,9 +126,7 @@ body {
 
   /* ---------text-img----------*/
   .img_background{
-    background-image: url("https://media.istockphoto.com/id/1323401361/photo/barbecue-grill-with-fire-flames-empty-fire-grid-on-black-background.jpg?b=1&s=170667a&w=0&k=20&c=hp17ofRNJd1eMmHFrgwjjuHNkowYjmByoCTCy0jkI_g=");
-    background-attachment: fixed;
-    background-size: cover;
+    background-color: black;
     padding:10px;
   }
 

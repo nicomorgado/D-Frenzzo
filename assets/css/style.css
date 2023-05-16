@@ -15,38 +15,41 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
+}
   
   .background_color_logo{
     background-color: black;
-  }
+}
 
   .insta_postion{
     position: absolute;
     left: 50px;
     top: 120px;
-  }
+}
 
   .logo {
     margin-left: 0;
     width: 100%;
-  }
+}
 
   .navbar {
     display: flex;
     justify-content: center;
-  }
+}
 
   .navbar a {
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
-  }
+}
 
 /*---------Footer----------*/
 .footer{
   background-color: black;
   height: 50px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 .footer_box{
   text-align: center;
@@ -128,6 +131,7 @@ body {
   .img_background{
     background-color: black;
     padding:10px;
+    margin-bottom: 50px;
   }
 
   .img_background h2{
@@ -269,6 +273,38 @@ body {
     left: 150px;
     text-align: center; 
   }
+
+  /*---------- Contact-----------*/
+
+  .flex_form{
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+
+  .flex_form > * {
+    color: white;
+    width: 80%;
+    padding-bottom: 10px;
+  }
+
+  .flex_form > input{
+    color: black;
+    text-align: center;
+  }
+  input:last-child {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+  }
+
+
 
 
 

@@ -84,11 +84,8 @@ body {
 }
   .about_us {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     height: 600px;
-  }
-
-  .about_us * {
     flex:1;
     padding: 10px;
     flex-wrap: wrap;
@@ -96,7 +93,6 @@ body {
 
   .slideset1 {
     height: 500px;
-    position: relative;
   }
   .slideset1 img{
     width: 440px;
@@ -107,24 +103,22 @@ body {
     visibility: hidden; 
     position: absolute;
     left: 25%;
-    animation: 12s autoplay1 infinite;
+    animation: 20s autoplay1 infinite;
   }
 
     @keyframes autoplay1 {
       0% {visibility: visible}
       33.33% {visibility: hidden}
     }
-
-    .slideset1 > *:nth-child(6) {animation-delay: 0s;}
-    .slideset1 > *:nth-child(5) {animation-delay: 2s;}
+    .slideset1 > *:nth-child(5) {animation-delay: 0s;}
     .slideset1 > *:nth-child(4) {animation-delay: 4s;}
-    .slideset1 > *:nth-child(3) {animation-delay: 6s;}
-    .slideset1 > *:nth-child(2) {animation-delay: 8s;}
-    .slideset1 > *:nth-child(1) {animation-delay: 10s;}
+    .slideset1 > *:nth-child(3) {animation-delay: 8s;}
+    .slideset1 > *:nth-child(2) {animation-delay: 12s;}
+    .slideset1 > *:nth-child(1) {animation-delay: 16s;}
 
   .video{
-    width:100%;
-    height: auto;
+    width:auto;
+    height: 100%;
   }
 
   /* ---------text-img----------*/
@@ -302,6 +296,149 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
     width: 100px;
+  }
+
+  /*---------- Media for tablets:-----------*/
+
+  @media only screen and (max-width:800px) {
+    
+    .space {
+      text-align: center;
+      font-family: Verdana, sans-serif;
+      margin-top:5%;
+      background-color: black;
+    }
+    
+    .subtitle{
+      background-color: white;
+      padding-bottom: 10px;
+    }
+    
+    .subtitle h2{
+      color: black;
+    }
+      .about_us {
+        display: flex;
+        justify-content: center;
+        height: 600px;
+      }
+    
+      .about_us * {
+        flex:1;
+        padding: 10px;
+        flex-wrap: wrap;
+      }
+    
+      .slideset1 {
+        height: 500px;
+        position: relative;
+      }
+      .slideset1 img{
+        width: 440px;
+        height: 570px;
+      }
+    
+      .slideset1 > * {
+        visibility: hidden; 
+     
+        animation: 12s autoplay1 infinite;
+      }
+    
+        @keyframes autoplay1 {
+          0% {visibility: visible}
+          33.33% {visibility: hidden}
+        }
+    
+        .slideset1 > *:nth-child(6) {animation-delay: 0s;}
+        .slideset1 > *:nth-child(5) {animation-delay: 2s;}
+        .slideset1 > *:nth-child(4) {animation-delay: 4s;}
+        .slideset1 > *:nth-child(3) {animation-delay: 6s;}
+        .slideset1 > *:nth-child(2) {animation-delay: 8s;}
+        .slideset1 > *:nth-child(1) {animation-delay: 10s;}
+    
+      .video{
+        width:100%;
+        height: auto;
+      }
+    
+      /* ---------text-img----------*/
+      .img_background{
+        background-color: black;
+        padding:10px;
+        margin-bottom: 50px;
+      }
+    
+      .img_background h2{
+        color: white;
+      }
+    
+      .background_box *{
+        text-align: start;
+      }
+    
+      .img_flex{
+        display:flex;
+        width:100%;
+        margin:0;
+        flex-wrap:wrap;
+        justify-content: center;
+      }
+    
+      .img_flex img{
+        display:block;
+        border-radius: 50%;
+        width:340px;
+        height:440px;
+        object-fit: scale-down;
+        flex-basis:10%;
+        padding:10px;
+      }
+    
+    /* --------- hover ----------*/
+      .container {
+        position: relative;
+        width: auto;
+      }
+    
+      .overlay {
+        opacity: 0;
+        transition: .5s ease;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        background-color: black;
+      }
+    
+      .container:hover .overlay {
+        opacity: 1;
+        color:black;
+        border-radius: 50%;
+      }
+    
+      .text {
+        color: white;
+        position:absolute;
+        top:30px;
+        left:30%; 
+      }
+    
+      .text_p {
+        color: white;
+        position:absolute;
+        top:100px;
+        left:10%; 
+      }
+    
+      .text_ul {
+        color: white;
+        position:absolute;
+        top:170px;
+        left:10%; 
+      }
   }
 
 

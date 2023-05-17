@@ -96,8 +96,10 @@ body {
     position: relative;
   }
   .slideset1 img{
+    display:block;
     width: 440px;
     height: 570px;
+    flex-basis:10%;
   }
 
   .slideset1 > * {
@@ -335,8 +337,10 @@ body {
         position: relative;
       }
       .slideset1 img{
-        width: 220px;
-        height: 285px;
+        display:block;
+        width: 440px;
+        height: 570px;
+        flex-basis:10%;
       }
     
       .slideset1 > * {

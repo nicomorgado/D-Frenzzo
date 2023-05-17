@@ -93,6 +93,7 @@ body {
 
   .slideset1 {
     height: 500px;
+    position: relative;
   }
   .slideset1 img{
     width: 440px;
@@ -300,7 +301,7 @@ body {
 
   /*---------- Media for tablets:-----------*/
 
-  @media screen and (max-width:800px) {
+  @media only screen and (max-width: 620px) {
     
     .space {
       text-align: center;
@@ -341,8 +342,7 @@ body {
       .slideset1 > * {
         visibility: hidden; 
         position: absolute;
-        left: auto;
-        right: auto;
+        left:0;
         animation: 12s autoplay1 infinite;
       }
     

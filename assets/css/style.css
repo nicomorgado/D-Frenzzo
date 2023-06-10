@@ -1,3 +1,11 @@
+*, 
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
     font-family: var(--ff-primary);
     font-weight: 500;
@@ -42,6 +50,10 @@ body {
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
+}
+.navbar a:hover {
+background-color: black;
+color:white;
 }
 
 /*---------Footer----------*/
@@ -88,6 +100,7 @@ body {
 
 .about_us h2, p{
   color: white;
+  margin-top: 0.6em;
 }
 
 .video{
@@ -98,7 +111,7 @@ body {
 .img_background{
     background-color: black;
     padding:10px;
-    margin-bottom: 50px;
+    margin-bottom: 65px;
   }
 
 .img_background h2{
@@ -174,6 +187,11 @@ body {
   }
 
   /*---------- Gallery -------------*/
+.text_color{
+  margin-top: 1em;
+  color: black;
+}
+
 .background_box_gallery {
     background-color: black;
     margin: 5% 10%;
@@ -245,7 +263,7 @@ body {
 
 .flex_form{
     display: flex;
-    background-color: black;
+    background-color:	rgb(48,48,48);
     flex-direction: column;
     width: 40%;
     align-items: center;
@@ -259,17 +277,30 @@ body {
 .flex_form > * {
     color: white;
     width: 80%;
-    padding-bottom: 10px;
+    padding-top: 10px;
   }
 
 .flex_form > input{
     color: black;
     text-align: center;
   }
- input:last-child {
-    margin-top: 10px;
-    margin-bottom: 10px;
+ .buttom_contact {
+    margin: 2em;
     width: 100px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px 10px;
+  }
+
+  .flex_form > input:hover{
+    border-color: red;
+  }
+
+  .buttom_contact:hover{
+    background-color:black;
+    color: white;
+    border-color: red;
   }
 
   /*---------- Media for tablets:         */

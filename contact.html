@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,54 +12,56 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-    <header>   
+    <!--header of the body-->
+    <header>
         <!--logo-->
         <div class="background_color_logo">
             <div class="header_logo">
                 <a href="index.html"><img src="assets/images/logo.png" alt="Puro Filo Logo" class="logo"></a>
             </div>
         </div>
-
         <!--header nav-->
-            <div class="navbar">
-                <a href="index.html">Home</a>      
-                <a href="knivesavailable.html">Craft Knives</a>    
-                <a href="contact.html">Contact</a> 
-            </div>
-</header>
-
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="knivesavailable.html">Craft Knives</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </header>
+    <!--main part of the body-->
     <main>
-            <form method= "GET" action= "response.html"  class="flex_form">
-                <h2>Let's get you the perfect Knive!</h2>
-
-                <label for="fname"> First Name</label>
-                <input type="text" id="fname" name="first_name" required>
-
-                <label for="lname"> Last Name</label>
-                <input type="text" id="lname" name="last_name" required>
-
-                <label for="email"> Email Address</label>
-                <input type="email" id="email" name="email_address" required>
-                
-                <label for="address"> Full Address</label>
-                <input type="text" id="address" name="full_address" required>
-
-                <label for="noknive"> Code of the Knife</label>
-                <input type="text" id="noknive" name="number_knive" required>
-                
-                <button class="buttom_contact" type= "submit">Let's cut it!</button>
-            </form>
+        <form method="GET" action="response.html" class="flex_form">
+            <h2>Let's get you the perfect Knive!</h2>
+            <!--first name-->
+            <label for="fname"> First Name</label>
+            <input type="text" id="fname" name="first_name" required>
+            <!--second name-->
+            <label for="lname"> Last Name</label>
+            <input type="text" id="lname" name="last_name" required>
+            <!--Email address-->
+            <label for="email"> Email Address</label>
+            <input type="email" id="email" name="email_address" required>
+            <!--full address-->
+            <label for="address"> Full Address</label>
+            <input type="text" id="address" name="full_address" required>
+            <!--knive code-->
+            <label for="noknive"> Code of the Knife</label>
+            <input type="text" id="noknive" name="number_knive" required>
+            <!--submit buttom-->
+            <button class="buttom_contact" type="submit">Let's cut it!</button>
+        </form>
     </main>
-
+    <!--footer of the body-->
     <footer>
         <div class="footer">
             <div class="footer_box">
-                <a href="https://www.instagram.com/purofilos/" target="_blank"><i style="font-size:24px" class="fa">&#xf16d; </i></a>
+                <a href="https://www.instagram.com/purofilos/" target="_blank"><i style="font-size:24px"
+                        class="fa">&#xf16d; </i></a>
                 <a href="contact.html"><i style="font-size:24px" class="fa">&#xf0e0;</i></a>
             </div>
         </div>
     </footer>
-
 </body>
+
 </html>

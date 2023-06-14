@@ -1,4 +1,4 @@
-![Puro Filo](documentation/animal_shelter_logo.png)
+![Puro Filo](documentation/logo.png)
 
 ---
 
@@ -63,77 +63,46 @@ The site can be accessed by this [link](https://nicomorgado.github.io/D-Frenzzo/
 
 + #### Hero Section
 
-    - Hero section have a fixed background image.
+    - Hero section is divided into two.
+        * A video that plays automatically, but its volume is muted.
+        * And the "about us" of the Start-up.
 
-    - Hero section have the block section below the image that consist:
 
-        * The name of the company.
-        * Short description of the company's philosophy.
-        * Contact button that leads directly to the contact page.
-
-    
     ![Hero Section](documentation/hero_section.png)
 
 --- 
 
 + #### Highlights Section
 
-    - Highlight Section has 4 cards with strong descriptive characteristics of the company.
-
-    - Tells website visitors how well animals are in the Animal Shelter.
-
-    - Attracts viewers to use this company for animal adoption.
+    - Highlight Section has 3 images with descriptive details of the knives.
+    - Tells website visitors how the knives are made of.
+    - Attracts viewers to buy the knives.
 
     
-    ![Highlights Section](documentation/main_cons.png)
-
-
-    ---
-+ #### Testimonials Section
-
-    - Testimonials Section has three feedbacks from people who were satisfied with the company's service.
-
-    - Each card has a picture of an animal with its owner.
-
-    - Each card has a story from the people who had an experience of using the Animal Shelter.
-
-    - Each card has a name of the pet's owner.
-
-​
-    ![Testimonials Section](documentation/testimonials.png)
-
-
----
-+ #### Call to Action Section
-
-    - Call to Action Section has an explicit message for the visitors of the website to contact the company.
-
-    - Is also has a button that directs to the contact page.
-​
-    ![Call to Action Section](documentation/call_to_action.png)
+    ![Highlights Section](documentation/knives_details.png)
 
 
 ---
 + #### Footer
 
-    - Footer contains social media links that open in a new tab.
+    - Footer contains:
+        - social media link that open in a new tab.
+        - contact link that bring you to the contact page.
+
 ​
     ![Footer](documentation/footer.png)
 ​
 ---
-+ ### Gallery Page
++ ### Craft Knives Page
 
-    - Gallery page has a hero image and an introduction message for the visitors that contains an incentive to contact the company.
+    - Craft Knives page has a introduction message for the visitors that contains an incentive to buy a knive.
 
-    - It has a button right after the introduction message that leads to the contact form page.
+    - It has the photos with Hover right after the introduction message.
 
-    - It has photos of the animals that a present in the Animal Shelter in real-time.
+    - Hover of the photos:
 
-        - The gallery is responsive: the size of the photo depends on the user's screen.
-        - Each image has a description of the animal that appears on hover.
-        - description information contains the name of the animal and its characteristics.
-
-    - It has a call to action section below the gallery with the incentivizing message and the button that leads to the contact form.
+        - Shows the code of the Knive.
+        - Link to the contact page.
 
     - It has a footer identical to the home page's footer.
     
@@ -147,13 +116,8 @@ The site can be accessed by this [link](https://nicomorgado.github.io/D-Frenzzo/
     - Contact page has a contact form:
 
         - All text input fields are customized.
-        - Labels are animated when the input field is in focus and are not empty.
+        - Labels are animated on hover.
         - All inputs are set to be required to fill out.
-        - It has to checkboxes for the visitors to fill voluntary:
-
-            - The 1st is - ADAPT, which helps the company to understand the motive of the visitor.
-            - The 2nd is - DONATE, which motivates users to consider financial support for the company. 
-
         - The submit button is animated on hover.
 
     - The page is responsive on all common screen sizes.
@@ -167,8 +131,8 @@ The site can be accessed by this [link](https://nicomorgado.github.io/D-Frenzzo/
 + ### Response page
 
     - Response page appears after submitting the contact form.
-    - It contains the thank you message and the promise to get in touch with the applicant within 24 hours.
-    - It will automatically direct the user to the main page in 10 seconds.
+    - It contains the thank you message and the checking the stock to send the details.
+    - It will automatically direct the user to the main page in 8 seconds.
 
     ![Response page](documentation/response_page.png)
 
@@ -177,14 +141,11 @@ The site can be accessed by this [link](https://nicomorgado.github.io/D-Frenzzo/
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used as the foundation of the site.
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - was used to add the styles and layout of the site.
-- [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used to arrange items simmetrically on the pages.
-- [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid) - was used to make "gallery" and "contact" pages responsive.
+- [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used to arrange items simmetrically on the pages and making the website screem friendly.
 - [CSS roots](https://developer.mozilla.org/en-US/docs/Web/CSS/:root) was used to declaring global CSS variables and apply them throughout the project. 
-- [Balsamiq](https://balsamiq.com/) was used to make wireframes for the website.
 - [VSCode](https://code.visualstudio.com/) was used as the main tool to write and edit code.
 - [Git](https://git-scm.com/) was used for the version control of the website.
 - [GitHub](https://github.com/) was used to host the code of the website.
-- [GIMP](https://www.gimp.org/) was used to make and resize images for the README file.
 
 
 ---
@@ -194,21 +155,11 @@ The site can be accessed by this [link](https://nicomorgado.github.io/D-Frenzzo/
 
 ![Color pallet](documentation/color_pallet.png)
 
-- Soft blue color was used as the main color of the website due to its phycological effect on people's minds. As this color is associated with trustworthiness and reliability, website visitors could build a firm believe in the organization "Animal Shelter".
+- Black color was used as the main color of the website.
 
-- Light Blue Color was used as a background color since this color creates a sense of tranquility and makes a connection between animal's ownership and peacefulness.
+- White Color was used as a background color.
 
-- Purple color was used to make an emphasis on the logo and leave a memorable effect on the website visitors.
-
-### Typography
-
-![Main Font](documentation/primary_font.png)
-
-- Lato Google Font was used as the main font of the website in order to increase readability of the content on the pages.
-
-![Accent Font](documentation/accent_font.png)
-
-- Lobster Google Font was used to attract viewers' attention to the company's logo, to make an accent on the strong points of the company, and to incentivize visitors to contact "Animal Shelter".
+- Red color was used for the logo and mach things with it.
 
 
 ### Wireframes
@@ -237,77 +188,6 @@ The site can be accessed by this [link](https://nicomorgado.github.io/D-Frenzzo/
 
 
 ---
-
-## Testing
-
-In order to confirm the correct functionality, responsiveness, and appearance:
-
-+ The website was tested on the following browsers: Chrome, Firefox, Brave.
-
-    - Chrome:
-
-    ![Chrome](documentation/browsers_google.gif)
-
-    - FireFox:
-
-    ![FireFox](documentation/browsers_firefox.gif)
-
-    - Brave:
-
-    ![Brave](documentation/browsers_brave.gif)
-
-
-+ The website was checked by devtools implemented in Firefox and Chrome browsers.
-
-    - Main Page:
-
-    ![Main Page](documentation/responsiveness_main_page.gif)
-
-    - Gallery Page:
-
-    ![Gallery Page](documentation/responsiveness_gallery_page.gif)
-
-    - Contact Page:
-
-    ![Contact Page](documentation/responsiveness_contact_page.gif)
-
-    - Response Page:
-
-    ![Response Page](documentation/responsiveness_response_page.gif)
-
-+ The website was checked with [Responsive Website Design Tester](https://responsivedesignchecker.com/).
-
-    - Desktop Screens:
-
-    ![Desktop 1024x600](documentation/desktop_1024_600.gif)
-    ![Desktop 1024x800](documentation/desktop_1024_800.gif)
-    ![Desktop 1366x768](documentation/desktop_1366_768.gif)
-    ![Desktop 1440x900](documentation/desktop_1440_900.gif)
-    ![Desktop 1600x900](documentation/desktop_1600_900.gif)
-    ![Desktop 1680x1050](documentation/desktop_1680_1050.gif)
-    ![Desktop 1920x1080](documentation/desktop_1920_1080.gif)
-    ![Desktop 1920x1200](documentation/desktop_1920_1200.gif)
-
-    - Tablet Screens:
-
-    ![Tablet 600x960](documentation/tablet_600_960.gif)
-    ![Tablet 768x1024](documentation/tablet_768_1024.gif)
-    ![Tablet 800x1280](documentation/tablet_800_1280.gif)
-    ![Tablet 1024x768](documentation/tablet_1024_768.gif)
-    ![Tablet 1366x1024](documentation/tablet_1366_1024.gif)
-    ![Tablet Kindle 768x1024](documentation/tablet_kindle_768_1024.gif)
-
-    - Mobile Screens:
-
-    ![Mobile 320x480](documentation/mobile_320_480.gif)
-    ![Mobile 320x568](documentation/mobile_320_568.gif)
-    ![Mobile 360x640](documentation/mobile_360_640.gif)
-    ![Mobile 375x667](documentation/mobile_375_667.gif)
-    ![Mobile 384x640](documentation/mobile_384_640.gif)
-    ![Mobile 411x731](documentation/mobile_411_731.gif)
-    ![Mobile 414x736](documentation/mobile_414_736.gif)
-
-+ The functionality of the links in the website was checked as well by different users.
 
 ### Manual testing
 

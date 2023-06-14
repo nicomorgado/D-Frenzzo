@@ -71,14 +71,18 @@ body {
   display: flex;
   justify-content: center;
   margin: 0;
-  padding: 0;
   gap: 25px;
 }
 
 .footer_box a {
   color: white;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 24px;
+  padding-top: 10px;
+}
+
+.footer_box a:hover {
+  color: red;
 }
 
 /* ---------index----------*/

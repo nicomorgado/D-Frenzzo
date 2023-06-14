@@ -1,4 +1,4 @@
-![Animal Shelter logo](documentation/animal_shelter_logo.png)
+![Puro Filo](documentation/animal_shelter_logo.png)
 
 ---
 
@@ -22,14 +22,12 @@ The site can be accessed by this [link](https://nicomorgado.github.io/D-Frenzzo/
 
 ### Returning VisitorGoals:
 
-* As a Returning Visitor, I want to see various pets, so that I can pick from.
-* As a Returning Visitor, I want to see information about animals, so that I can learn about each animal and make a prudent decision.
-* As a Returning Visitor, I want to find a way to get in contact with the organization, so that I can ask additional questions or send a request about a particular animal.
-* As a Returning Visitor, I want to find community links, so that I can learn more about the organization.
+* As a Returning Visitor, I want to see various knives, so that I can choose from.
+* As a Returning Visitor, I want to see information about the knives, so that I can learn about them and make a informed decision.
+* As a Returning Visitor, I want to find a way to get in contact with the Start-up, so that I can ask additional questions or send a request about a particular knive.
 
 ### Frequent Visitor Goals:
-* As a Frequent User, I want to check whether there are any changes with available animals, so I can make a choice which animal to adopt.
-* As a Frequent User, I want to have options for the reason to contact the company, so I can get an explicit answer to my email. 
+* As a Frequent User, I want to check whether there are any changes with new knives, so I can get a new knive.
 
 ## Features
 
@@ -37,14 +35,14 @@ The site can be accessed by this [link](https://nicomorgado.github.io/D-Frenzzo/
 
 + ##### Navigation
     - Positioned at the top of the page.
-    - Contains logo of the company on the middle-top.
+    - Contains logo of the company on the middle-top that links you to the home page.
     - Contains navigation links on the middle:
         * Home - leads to the home page where users can learn about the company and the knivs.
         * Craft Knives - leads to the gallery page where users can see available animals in the Animal Shelter.
         * Contact - leads to the contact form page where users can fill out the form in order to get in touch with the company.
     - The links have animated hover effect.
     - The navigation is clear and easy to understand for the user.
-    ![NavBar desktop](documentation/navbar_desktop.png)
+    ![NavBar desktop]()
 
     - The navigation bar is responsive:
         * On tablets: navigation bar is split into to lines: the first line filled with the logo and the second line filled with links. All elements are centered.

@@ -198,7 +198,7 @@ p {
 
 .background_box_gallery {
   background-color: black;
-  margin: 5% 10%;
+  margin: 5% 10% 6em 10%;
 }
 
 .background_box_gallery * {

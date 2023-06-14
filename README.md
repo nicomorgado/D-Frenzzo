@@ -319,18 +319,16 @@ In your IDE Terminal, type the following command to clone my repository:
 ---
 
 ## Future improvements
-- add favicon with [Favicon Generator. For real.](https://realfavicongenerator.net/);
-- add custom 404 page;
-- add accessability report with [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/);
-- improve the quality of the commit messages (I am aware that some of them are not very clear and not meeting the standards and will improve them in the future);
-- add fully functional contact form when;
+- add custom 404 page.
+- improve the quality of the commit messages (I am aware that some of them are not very clear and not meeting the standards and will improve them in the future).
+- add fully functional contact form.
 
 ---
 ## Credits
 
 + #### Content
 
-    - Inspiration for the gallery hover effect came from the article "How to add a gradient to overlay to a background image using just CSS and HTML" published the website [Web Dev etc](https://webdevetc.com).
+    - Inspiration for the README.md came from [Iuliia Konovalova](https://github.com/IuliiaKonovalova) Using her README.md as my skeleton.
     - Inspiration for the responsive hamburger navbar came from [Kevin Powell](https://www.youtube.com/user/KepowOb) on his YouTube channel.
 
 + #### Media
@@ -338,10 +336,6 @@ In your IDE Terminal, type the following command to clone my repository:
     - All the images for the website were given by the owner of Puro Filo, and where taken by Martin Howard Gutierrez.
 + #### Tools
 
-    - [Compress JPEG](https://compressjpeg.com/) was used to compress JPEG images.
-    - [IMGonline.com.ua](https://www.imgonline.com.ua/eng/resize-image.php) was used to resize images.
-    - [EzGif](https://ezgif.com) was used to resize GIF images.
-    - [GIMP](https://www.gimp.org/) was used to edit all README.md images.
     - [cooler](https://coolors.co/) was used to create the color palette.
 
 
@@ -349,10 +343,7 @@ In your IDE Terminal, type the following command to clone my repository:
 
 ## Acknowledgments
 
-- [Tim Nelson](https://github.com/TravelTimN) was a great supporter of another bold idea of mine for this project. Tim guided me through the development of the project and helped me to learn a lot of new things by challenging me to do something new.
-- [Aleksei Konovalov](https://github.com/lexach91), my husband and coding partner, assisted me greatly in product values js selection control implementation and helped me to stay sane.
-- [Zulnara Buravtseva](https://www.linkedin.com/in/zulnaraburavtseva/), my dear friend, helped me to test the website and provided me with valuable feedback.
+- [Iuliia Konovalova](https://github.com/IuliiaKonovalova) Iuliia Konovalova guided me through the development of the project and helped me to learn a lot of new things by challenging me to do something new.
 - [Code Institute](https://codeinstitute.net/) tutors and Slack community members for their support and help.
-- [Kevin Powell](https://www.youtube.com/user/KepowOb) for his amazing CSS tutorials.
 
 ---

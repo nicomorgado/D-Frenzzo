@@ -42,19 +42,8 @@ The site can be accessed by this [link](https://nicomorgado.github.io/D-Frenzzo/
         * Contact - leads to the contact form page where users can fill out the form in order to get in touch with the company.
     - The links have animated hover effect.
     - The navigation is clear and easy to understand for the user.
-    ![NavBar desktop]()
-
-    - The navigation bar is responsive:
-        * On tablets: navigation bar is split into to lines: the first line filled with the logo and the second line filled with links. All elements are centered.
-        ![NavBar Tablets](documentation/navbar_tablets.png)
-
-        * On mobile devices: 
-            - navigation bar filled with the logo in the center and a hamburger menu implemented on the left side of the navigation bar.      
-            ![NavBar Mobile Closed](documentation/navbar_mobile_closed.png)
-        
-            - When the hamburger menu is clicked, there is dropdown menu with the links in the same order.
-            ![NavBar Mobile Open](documentation/navbar_mobile_open.png)
-
+    ![NavBar desktop](documentation/navbar.png)
+    - The navigation bar is responsive
 
 
 ---
@@ -65,8 +54,7 @@ The site can be accessed by this [link](https://nicomorgado.github.io/D-Frenzzo/
 
         * the main idea of the company.
         * Emphasize the strong points of the company.
-        * Shows feedback from satisfied clients.
-        * Invites to fill out the contact form.
+        * Shows the discraption of the knives.
 
 
     ![Home Page](documentation/home_page.png)

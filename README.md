@@ -175,7 +175,7 @@ The site can be accessed by this [link](https://nicomorgado.github.io/D-Frenzzo/
 | Images in the home page | User hover the image | Description of the knives appear on the image | Yes | Yes | - |
 | craft knives page | | | | | |
 | Images in the craft knives | User hover the image | code of the knives and "ask for it" buttom appear on the image | Yes | Yes | - |
-| "Ask for it" button in Hero section | Click on the "ask for it" button | The user is redirected to the contact page | Yes | Yes | - |
+| "Ask for it" button | Click on the "ask for it" button | The user is redirected to the contact page | Yes | Yes | - |
 | Contact page | | | | | |
 | First name input | Enter the first name | The first name is entered | Yes | Yes | If user doesn't enter the first name, the error message appears |
 | Last name input | Enter the last name | The last name is entered | Yes | Yes | If user doesn't enter the last name, the error message appears |

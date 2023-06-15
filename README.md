@@ -58,9 +58,9 @@ The site can be accessed by this [link](https://nicomorgado.github.io/D-Frenzzo/
 
 ---
 
-+ #### Hero Section
++ #### First section
 
-    - Hero section is divided into two.
+    - Is divided into two.
         * A video that plays automatically, but its volume is muted.
         * And the "about us" of the Start-up.
 
@@ -170,7 +170,7 @@ The site can be accessed by this [link](https://nicomorgado.github.io/D-Frenzzo/
 | Contact | Click on the "Contact" link | The user is redirected to the contact page | Yes | Yes | - |
 | Footer | | | | | |
 | Instagram icon in the footer | Click on the Instagram icon | The user is redirected to the Instagram page | Yes | Yes | - |
-| "Contact Us" button in Hero section | Click on the "Embolo" button | The user is redirected to the contact page | Yes | Yes | - |
+| "Contact Us" button | Click on the "Embolo" button | The user is redirected to the contact page | Yes | Yes | - |
 | Home page | | | | | |
 | Images in the home page | User hover the image | Description of the knives appear on the image | Yes | Yes | - |
 | craft knives page | | | | | |

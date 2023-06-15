@@ -5,7 +5,7 @@ The Puro Filo website allows people to see about the company "Puro Filo" and fin
 
 The site can be accessed by this [link](https://nicomorgado.github.io/D-Frenzzo/)
 
-![Responsive Mockup](documentation/responsive_mockup.png)
+![Responsive Mockup](documentation/responsive_mockup.jpg)
 
 
 ---
@@ -287,7 +287,6 @@ In your IDE Terminal, type the following command to clone my repository:
 + #### Content
 
     - Inspiration for the README.md came from [Iuliia Konovalova](https://github.com/IuliiaKonovalova) Using her README.md as my skeleton.
-    - Inspiration for the responsive hamburger navbar came from [Kevin Powell](https://www.youtube.com/user/KepowOb) on his YouTube channel.
 
 + #### Media
 
@@ -301,7 +300,7 @@ In your IDE Terminal, type the following command to clone my repository:
 
 ## Acknowledgments
 
-- [Iuliia Konovalova](https://github.com/IuliiaKonovalova) Iuliia Konovalova guided me through the development of the project and helped me to learn a lot of new things by challenging me to do something new.
+- [Iuliia Konovalova](https://github.com/IuliiaKonovalova) Iuliia Konovalova guided me through the development of the project and helped me to learn a lot of new things by challenging me to do something new like using Flexbox.
 - [Code Institute](https://codeinstitute.net/) tutors and Slack community members for their support and help.
 
 ---

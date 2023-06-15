@@ -1,6 +1,3 @@
-![Puro Filo](documentation/logo.png)
-
----
 
 # *Puro Filo*
 
@@ -57,7 +54,7 @@ The site can be accessed by this [link](https://nicomorgado.github.io/D-Frenzzo/
         * Shows the discraption of the knives.
 
 
-    ![Home Page](documentation/home_page.png)
+    ![Home Page](documentation/home_page.jpg)
 
 ---
 
@@ -107,7 +104,7 @@ The site can be accessed by this [link](https://nicomorgado.github.io/D-Frenzzo/
     - It has a footer identical to the home page's footer.
     
 ​
-    ![Tour page](documentation/gallery_page.png)
+    ![Tour page](documentation/gallery_page.jpg)
 
 
 ---
@@ -124,7 +121,7 @@ The site can be accessed by this [link](https://nicomorgado.github.io/D-Frenzzo/
 
     - The submit button leads to the response page.
 ​
-    ![Contact page](documentation/contact_form_page.png)
+    ![Contact page](documentation/contact_form_page.jpg)
 
 
 ---

@@ -15,7 +15,7 @@ The site can be accessed by this [link](https://nicomorgado.github.io/D-Frenzzo/
 
 * As a First Time Visitor, I want to easily understand the main purpose of the site, so I can learn more about the start-up.
 * As a First Time Visitor, I want to be able to easily navigate through the website, so I can find the content.
-* As a First Time Visitor, I want to see the details of the knifs, so I can see whether the organization is trustworthy.
+* As a First Time Visitor, I want to see the details of the knivs.
 
 ### Returning VisitorGoals:
 
@@ -24,7 +24,7 @@ The site can be accessed by this [link](https://nicomorgado.github.io/D-Frenzzo/
 * As a Returning Visitor, I want to find a way to get in contact with the Start-up, so that I can ask additional questions or send a request about a particular knive.
 
 ### Frequent Visitor Goals:
-* As a Frequent User, I want to check whether there are any changes with new knives, so I can get a new knive.
+* As a Frequent User, I want to check whether there are any new knives, so I can get a new knive.
 
 ## Features
 
@@ -50,7 +50,7 @@ The site can be accessed by this [link](https://nicomorgado.github.io/D-Frenzzo/
     - Represent: 
 
         * the main idea of the company.
-        * Emphasize the strong points of the company.
+        * Sharring the history of the Start-up.
         * Shows the discraption of the knives.
 
 
@@ -131,7 +131,7 @@ The site can be accessed by this [link](https://nicomorgado.github.io/D-Frenzzo/
     - It contains the thank you message and the checking the stock to send the details.
     - It will automatically direct the user to the main page in 8 seconds.
 
-    ![Response page](documentation/response_page.png)
+    ![Response page](documentation/response_page.jpg)
 
 ---
 ## Technologies Used
@@ -150,39 +150,13 @@ The site can be accessed by this [link](https://nicomorgado.github.io/D-Frenzzo/
 
 ### Color Scheme
 
-![Color pallet](documentation/color_pallet.png)
+![Color pallet](documentation/color_pallet.jpg)
 
 - Black color was used as the main color of the website.
 
 - White Color was used as a background color.
 
 - Red color was used for the logo and mach things with it.
-
-
-### Wireframes
-
-#### Mobile devices
-
-- [Home Page. Mobile Screen](documentation/mobile_home_page.png)
-- [Gallery Page. Mobile Screen](documentation/mobile_gallery_page.png)
-- [Contact Page. Mobile Screen](documentation/mobile_contact_form_page.png)
-- [Response Page. Mobile Screen](documentation/mobile_response_page.png)
-
-
-#### Tablets
-
-- [Home Page. Tablet Screen](documentation/tablet_home_page.png)
-- [Gallery Page. Tablet Screen](documentation/tablet_gallery_page.png)
-- [Contact Page. Tablet Screen](documentation/tablet_contact_form_page.png)
-- [Response Page. Tablet Screen](documentation/tablet_response_page.png)
-
-#### Desktop
-
-- [Home Page. Desktop Screen](documentation/desktop_home_page.png)
-- [Gallery Page. Desktop Screen](documentation/desktop_gallery_page.png)
-- [Contact Page. Desktop Screen](documentation/desktop_contact_form_page.png)
-- [Response Page. Desktop Screen](documentation/desktop_response_page.png)
-
 
 ---
 
@@ -219,23 +193,20 @@ The site can be accessed by this [link](https://nicomorgado.github.io/D-Frenzzo/
 ​
 ### Bugs
 + ##### Solved bugs
-    1. The testimonials pictures had a square shape in Brave browser on a mobile phone when the border radius had been set to 50%. It was due to the outline properties settings instead of the border
+    1. The Craft Knives page had a problems with the diferent tipe of screem. 
     
-        *Solutions:* Outline was replaced with border properties.
+        *Solutions:* flexbox was used.
     
-    1. The gallery image descriptions were not appearing on the picture when hovering it as the position of the .image_content was set to fixed.
+    1. The video was having problems on smalls screems.
         
-        *Solution:* The .image_content position was set to absolute, with the top: 0, left: 0, and added padding on the .image_content. 
+        *Solution:* aspect-ratio was used. 
 
-    1. Footer on the contact page was reducing the size of the screen and shrank the contact form as the height of the background image was set to calc(100vh-the size of the footer)
-        
-        *Solution:* The height of the image was set to 100hv, and the display of the footer was set to fixed.
     ---
 + ##### Unsolved bugs
     - None.
 + ##### Mistakes
-    - Mistakes were made while committing changes. I used past simple tense in commits due to the habit when I just started working on this project.
-    - While progressing in my code I learned to use present simple tense in commits.
+    - Mistakes were made while committing changes. I used the sames commits messege.
+    - While progressing in my code I learned to use commits.
 
 ---
 ## Validator testing
@@ -244,74 +215,64 @@ The site can be accessed by this [link](https://nicomorgado.github.io/D-Frenzzo/
     - No errors or warnings were found when passing through the official W3C validator.
 
 
-    ![Home Page HTML Validator](documentation/w3_validator_home_page.png)
+    ![Home Page HTML Validator](documentation/w3_validator_home_page.jpg)
     
   #### Gallery Page
     - No errors or warnings were found when passing through the official W3C validator.
 
-    ![Gallery Page HTML Validator](documentation/w3_validator_gallery_page.png)
+    ![Gallery Page HTML Validator](documentation/w3_validator_gallery_page.jpg)
 
   #### Contact Page
     - No errors or warnings were found when passing through the official W3C validator.
 
-    ![Contact Page HTML Validator](documentation/w3_validator_contact_page.png)
+    ![Contact Page HTML Validator](documentation/w3_validator_contact_page.jpg)
 
   #### Response Page
     - No errors or warnings were found when passing through the official W3C validator.
 
-    ![Response Page HTML Validator](documentation/w3_validator_response_page.png)
+    ![Response Page HTML Validator](documentation/w3_validator_response_page.jpg)
     
 + ### CSS
-  No errors or warnings were found when passing through the official W3C (Jigsaw) validator except:
+  No errors or warnings were found when passing through the official W3C (Jigsaw) validator:
     
-    - 3 errors regarding *all: unset*: "Property all doesn't exist. The closest matching property name is fill : unset".
-
-    - Even though this error is present, I don't believe it is 100% accurate, and more information can be found [here](https://developer.mozilla.org/en-US/docs/Web/CSS/all)
-
-  ![CSS Validator errors](documentation/w3_validator_css_errors.png)
+  ![CSS Validator errors](documentation/w3_validator_css.jpg)
   
-    - 43 warning regarding the use of *:root variables*: "Due to their dynamic nature, CSS variables are currently not statically checked".
-    
-  ![CSS Validator errors](documentation/w3_validator_css_warnings.png)
-
 
 + ### Accessibility and performance 
     - Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
     
   #### Home page
 
-  ![Home Page Lighthouse](documentation/lighthouse_home_page.png)
+  ![Home Page Lighthouse](documentation/lighthouse_home_page.jpg)
 
   #### Gallery page
 
-  ![Gallery Page Lighthouse](documentation/lighthouse_gallery_page.png)
+  ![Gallery Page Lighthouse](documentation/lighthouse_gallery_page.jpg)
 
   #### Contact page
 
-  ![Contact Page Lighthouse](documentation/lighthouse_contact_page.png)
+  ![Contact Page Lighthouse](documentation/lighthouse_contact_page.jpg)
 
   #### Response page
 
-  ![Response Page Lighthouse](documentation/lighthouse_response_page.png)
+  ![Response Page Lighthouse](documentation/lighthouse_response_page.jpg)
 
 ---
 ## Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the [GitHub repository](https://github.com/IuliiaKonovalova/animal_shelter), navigate to the Settings tab 
+  - In the [GitHub repository](https://github.com/nicomorgado/D-Frenzzo), navigate to the Settings tab 
   - From the source section drop-down menu, select the **Main** Branch, then click "Save".
   - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found [here](https://iuliiakonovalova.github.io/animal_shelter)
+The live link can be found [here](https://nicomorgado.github.io/D-Frenzzo/)
 
 ## Local Deployment
 
 In order to make a local copy of this project, you can clone it.
 In your IDE Terminal, type the following command to clone my repository:
 
-- `git clone https://github.com/IuliiaKonovalova/animal_shelter.git`
-
-- Alternatively, if you use Gitpod, you can [click here](https://gitpod.io/#https://github.com/IuliiaKonovalova/animal_shelter), which will start the Gitpod workspace for you.
+- `git clone https://github.com/nicomorgado/D-Frenzzo`
 
 ---
 
